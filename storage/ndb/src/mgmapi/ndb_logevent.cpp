@@ -152,7 +152,7 @@ struct Ndb_logevent_body_row ndb_logevent_body[] = {
 
     ROW(NDBStartCompleted, "version", 1, version),
 
-    //  ROW( STTORRYRecieved),
+    //  ROW( STTORRYReceived),
 
     ROW(StartPhaseCompleted, "phase", 1, phase),
     ROW(StartPhaseCompleted, "starttype", 2, starttype),

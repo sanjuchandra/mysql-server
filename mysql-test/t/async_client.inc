@@ -3,7 +3,7 @@ enable_async_client;
 
 --echo #
 --echo # Nonblocking client
---echo # Send/Recieve a large packet with following options :-
+--echo # Send/Receive a large packet with following options :-
 --echo # Compress option : $COMPRESS_OPTION
 --echo # Compress algorithm : $COMPRESS_ALGORITHM
 --echo # Packet size : $SIZE
@@ -20,7 +20,7 @@ connect(foo_con,localhost,foo,pwd,,,,SSL,,);
 --let $x_str = `SELECT REPEAT('X', $SIZE)`
 --let $SIZE =  `SELECT ($SIZE)`
 
---echo ############ Verify Send and Recieve $SIZE bytes packet #################
+--echo ############ Verify Send and Receive $SIZE bytes packet #################
 
 --let $str = `SELECT "$x_str"`
 --let $x_str = 0

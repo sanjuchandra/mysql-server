@@ -322,7 +322,7 @@ class Master_info : public Rpl_info {
   ulonglong last_heartbeat;
 
   /// The decompressed size of the transaction that is currently in progress of
-  /// being queued, if any. This is private to the reciever.
+  /// being queued, if any. This is private to the receiver.
   int64_t m_queueing_transaction_size{0};
   /// The size of the gtid event for the  transaction that is currently in
   /// progress of being queued. This is private to the receiver.

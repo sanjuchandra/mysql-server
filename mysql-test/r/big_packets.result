@@ -13,11 +13,11 @@ DROP USER foo@localhost;
 CREATE USER foo@localhost IDENTIFIED BY 'pwd';
 #
 # Blocking client
-# Send/Recieve a large packet with following options :-
+# Send/Receive a large packet with following options :-
 # Compress option : COMPRESS
 # Compress algorithm : zstd
 # Packet size : 64*1024*1024
 #
-############ Verify Send and Recieve 67108864 bytes packet #################
+############ Verify Send and Receive 67108864 bytes packet #################
 ############ Verify the packet contents #################################
 DROP USER foo@localhost;

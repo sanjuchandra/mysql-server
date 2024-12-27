@@ -357,7 +357,7 @@ bool Test_udf_charset_base::run_return_udf(UDF_INIT *initid, UDF_ARGS *args,
                                            unsigned long &result_len) {
   for (uint i = 0; i < args->arg_count; i++) {
     if (!args->args[i]) {
-      s_message << "Recieved argument " << i + 1
+      s_message << "Received argument " << i + 1
                 << " as null. Specify valid argument";
       return true;
     }
@@ -468,7 +468,7 @@ bool Test_udf_charset_base::run_args_udf(UDF_INIT *initid, UDF_ARGS *args,
                                          unsigned long &result_len) {
   for (uint i = 0; i < args->arg_count; i++) {
     if (!args->args[i]) {
-      s_message << "Recieved argument " << i + 1
+      s_message << "Received argument " << i + 1
                 << " as null. Specify valid argument";
       return true;
     }

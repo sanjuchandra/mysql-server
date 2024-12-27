@@ -12,7 +12,7 @@
 # Test:
 # 0. The test requires three servers: M1, M2 and M3.
 # 1. Bootstrap group with M1. Create table t1 on M1. Start GR on M2. Check that
-#    M2 recieves view change from M1, create table, view change by M2.
+#    M2 receives view change from M1, create table, view change by M2.
 # 2. Make M2 leave and join again. Check that exists one more event after join
 #    in the binlog.
 # 3. Stop GR on M2. Join and leave M3. Start GR on M2. Check on M2 it should

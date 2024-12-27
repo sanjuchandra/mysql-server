@@ -3,7 +3,7 @@
 # Aim of the test is to test compression between the mysql client   #
 # and server using the zstd library. It does the following :-       #
 #  - Loads table with appropriate data.                             #
-#  - Recieves it through the client using different compression     #
+#  - Receives it through the client using different compression     #
 #    levels.                                                        #
 #  - Compares the number of bytes sent from the server for each     #
 #    instance.                                                      #
